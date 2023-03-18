@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pitch-cn
 // @namespace    https://rainforest-kailous.notion.site/
-// @version      0.1
+// @version      0.2
 // @description  Pitch 汉化补丁，兼容网页与客户端。当前汉化进度：25%
 // @author       Kailous
 // @match        https://app.pitch.com/*
