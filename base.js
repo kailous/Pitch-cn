@@ -6,7 +6,8 @@
 // @author       Kailous
 // @match        https://app.pitch.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pitch.com
-// @grant        GM_xmlhttpRequest
+// @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function(){ var en = function(n, ord
