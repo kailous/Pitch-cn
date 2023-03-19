@@ -1177,7 +1177,7 @@
     "common-inspector-editor--close-panel-tooltip": function(d) { return "切换面板"; },
     "common-inspector-editor--reset-to-original-proportions": function(d) { return "重置比例"; },
     "common-inspector-editor--replace-media": function(d) { return "替换媒体"; },
-    "common-inspector-editor--crop": function(d) { return "裁剪图片"; }
+    "common-inspector-editor--crop": function(d) { return "裁剪图片"; },
     "common-inspector-editor--exit-crop": function(d) { return "完成裁剪"; },
     "common-inspector-editor--replace-sticker": function(d) { return "更换贴纸"; },
     "common--alert--left-shared-folder": function(d) { return "您已成功离开“" + d.folder_name + "”"; },
@@ -1197,7 +1197,7 @@
     "common--importer--processing-description": function(d) { return "正在上传文件"; },
     "importer-ppt-modal--success-supported--body": function(d) { return "成功！"; },
     "importer-ppt-modal--success--body": function(d) { return "您导入的演示文稿现在在您的#[folder-name]文件夹中。"; },
-    "importer-ppt-modal--success-unsupported--body": function(d) { return "您的演示文稿中的某些元素尚未受到支持。"; }
+    "importer-ppt-modal--success-unsupported--body": function(d) { return "您的演示文稿中的某些元素尚未受到支持。"; },
     "importer-ppt-modal--open-button": function(d) { return "Open presentation"; },
     "importer-ppt-modal--learn-more": function(d) { return "Learn more"; },
     "importer-ppt-modal--initial--body": function(d) { return "Import a .pptx file here. Not using PowerPoint? Tools like Google Slides and Keynote can export to this format. #[learn-more]"; },
