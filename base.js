@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pitch-cn
 // @namespace    https://rainforest-kailous.notion.site/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Pitch 汉化补丁，兼容网页与客户端。汉化的完成度已经100%了，但是英文改中文后，有些界面的布局可能会有些问题，但是不影响使用，后续会修复。如果有发现问题，欢迎反馈给我，谢谢！
 // @author       Kailous
 // @match        https://app.pitch.com/*
@@ -3958,7 +3958,7 @@
     "title-bar--share-dialog--pdf-export--branded-description": function(d) { return "专业工作区可以导出无水印的 PDF 文件。"; },
     "title-bar--share-dialog--pdf-export--branded-description--app-store-title": function(d) { return "导出的文件将包含 Pitch 的小徽标。 "; },
     "title-bar--share-dialog--pdf-export--branded-description--app-store": function(d) { return "在入门版计划中无法导出不带水印的 PDF。"; },
-    "title-bar--share-dialog--pdf-export--unbranded-description": function(d) { return "#【links_title】与PDF不同，共享链接始终保持最新状态，并具有交互式内容，如视频。#[share_link]"; },
+    "title-bar--share-dialog--pdf-export--unbranded-description": function(d) { return "#[links_title]与PDF不同，共享链接始终保持最新状态，并具有交互式内容，如视频。#[share_link]"; },
     "title-bar--share-dialog--pdf-export--unbranded-description--links--title": function(d) { return "链接让你的作品更加出色。"; },
     "title-bar--share-dialog--pdf-export--unbranded-description--share--link": function(d) { return "分享链接"; },
     "title-bar--share-dialog--pdf-export--button": function(d) { return "导出为PDF"; },
@@ -3971,7 +3971,7 @@
     "title-bar--share-dialog--ppt-export--unsupported-description": function(d) { return "视频、录音和其他块可能无法正确导出。"; },
     "title-bar--share-dialog--ppt-export--unsupported-promote-links": function(d) { return "为了让其他人看到您的演示文稿的最佳效果，#[try-link]。"; },
     "title-bar--share-dialog--ppt-export--unsupported-promote-links--try": function(d) { return "尝试共享链接"; },
-    "title-bar--share-dialog--ppt-export--promote-links": function(d) { return "#【links_title】任何人都可以访问您演示文稿的链接并查看您的最新工作。#[share_link]"; },
+    "title-bar--share-dialog--ppt-export--promote-links": function(d) { return "#[links_title]任何人都可以访问您演示文稿的链接并查看您的最新工作。#[share_link]"; },
     "title-bar--share-dialog--ppt-export--promote-links-title": function(d) { return "您仍然可以发送链接。"; },
     "title-bar--share-dialog--ppt-export--promote-links-share": function(d) { return "分享链接"; },
     "title-bar--share-dialog--ppt-export--button": function(d) { return "导出为 PowerPoint"; },

@@ -1,0 +1,23 @@
+<svg width="97" height="78" viewBox="0 0 97 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0.5H91C94.0376 0.5 96.5 2.96243 96.5 6V72C96.5 75.0376 94.0376 77.5 91 77.5H6C2.96243 77.5 0.5 75.0376 0.5 72V6C0.5 2.96243 2.96243 0.5 6 0.5Z" stroke="#2B2A35" stroke-opacity="0.15"/>
+<path d="M41 16V20H20V16L41 16Z" fill="#586EE0"/>
+<path d="M40.6434 16.3566V19.6434H20.3566V16.3566H40.6434Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M68 16C69.1046 16 70 16.8954 70 18C70 19.1046 69.1046 20 68 20H41V16L68 16Z" fill="#FFBB5E"/>
+<path d="M68 16.3566C68.9076 16.3566 69.6434 17.0924 69.6434 18C69.6434 18.9076 68.9076 19.6434 68 19.6434H41.3566V16.3566H68Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M54 30V34H20V30L54 30Z" fill="#586EE0"/>
+<path d="M53.6434 30.3566V33.6434H20.3566V30.3566L53.6434 30.3566Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M76 30C77.1046 30 78 30.8954 78 32C78 33.1046 77.1046 34 76 34H54V30H76Z" fill="#FFBB5E"/>
+<path d="M76 30.3566C76.9076 30.3566 77.6434 31.0924 77.6434 32C77.6434 32.9076 76.9076 33.6434 76 33.6434H54.3566V30.3566H76Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M32 44V48H20V44H32Z" fill="#586EE0"/>
+<path d="M31.6434 44.3566V47.6434H20.3566V44.3566H31.6434Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M72 44C73.1046 44 74 44.8954 74 46C74 47.1046 73.1046 48 72 48H32V44H72Z" fill="#FFBB5E"/>
+<path d="M72 44.3566C72.9076 44.3566 73.6434 45.0924 73.6434 46C73.6434 46.9076 72.9076 47.6434 72 47.6434H32.3566V44.3566H72Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M52 57V61H20V57H52Z" fill="#586EE0"/>
+<path d="M51.6434 57.3566V60.6434H20.3566V57.3566H51.6434Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M59 57C60.1046 57 61 57.8954 61 59C61 60.1046 60.1046 61 59 61H52V57H59Z" fill="#FFBB5E"/>
+<path d="M59 57.3566C59.9076 57.3566 60.6434 58.0924 60.6434 59C60.6434 59.9076 59.9076 60.6434 59 60.6434H52.3566V57.3566H59Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<rect x="11" y="15" width="6" height="6" rx="2" fill="#DDDFE5"/>
+<rect x="11" y="29" width="6" height="6" rx="2" fill="#DDDFE5"/>
+<rect x="11" y="43" width="6" height="6" rx="2" fill="#DDDFE5"/>
+<rect x="11" y="57" width="6" height="6" rx="2" fill="#DDDFE5"/>
+</svg>

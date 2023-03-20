@@ -1,0 +1,179 @@
+<svg width="284" height="82" viewBox="0 0 284 82" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_d)">
+        <rect x="3.5" y="2.5" width="123" height="75" rx="2.5" fill="white"
+              stroke="#586EE0"/>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M24 5H6V11H24V5ZM24 13H6V19H24V13ZM6 21H24V27H6V21ZM24 29H6V35H24V29ZM6 37H24V43H6V37ZM24 45H6V51H24V45ZM6 53H24V59H6V53ZM24 61H6V67H24V61ZM6 69H24V75H6V69ZM44 5H26V11H44V5ZM26 13H44V19H26V13ZM44 21H26V27H44V21ZM26 29H44V35H26V29ZM44 37H26V43H44V37ZM26 45H44V51H26V45ZM44 53H26V59H44V53ZM26 61H44V67H26V61ZM44 69H26V75H44V69ZM46 5H64V11H46V5ZM64 13H46V19H64V13ZM46 21H64V27H46V21ZM64 29H46V35H64V29ZM46 37H64V43H46V37ZM64 45H46V51H64V45ZM46 53H64V59H46V53ZM64 61H46V67H64V61ZM46 69H64V75H46V69ZM84 5H66V11H84V5ZM66 13H84V19H66V13ZM84 21H66V27H84V21ZM66 29H84V35H66V29ZM84 37H66V43H84V37ZM66 45H84V51H66V45ZM84 53H66V59H84V53ZM66 61H84V67H66V61ZM84 69H66V75H84V69ZM86 5H104V11H86V5ZM104 13H86V19H104V13ZM86 21H104V27H86V21ZM104 29H86V35H104V29ZM86 37H104V43H86V37ZM104 45H86V51H104V45ZM86 53H104V59H86V53ZM104 61H86V67H104V61ZM86 69H104V75H86V69ZM124 5H106V11H124V5ZM106 13H124V19H106V13ZM124 21H106V27H124V21ZM106 29H124V35H106V29ZM124 37H106V43H124V37ZM106 45H124V51H106V45ZM124 53H106V59H124V53ZM106 61H124V67H106V61ZM124 69H106V75H124V69Z"
+              fill="#E6E9EB"/>
+        <rect id="selection-values" x="26.5" y="13.5" width="38" fill="#586EE0"
+              fill-opacity="0.1" stroke="#586EE0">
+            <animate attributeName="height" dur="4s" repeatCount="indefinite" fill="freeze"
+                     values="0; 53; 53"
+                     keyTimes="0; 0.14; 1"
+                     calcMode="spline"
+                     keySplines=".25 .46 .45 .94;
+                                 0 0 0 0;"
+            />
+        </rect>
+    </g>
+    <g filter="url(#filter1_d)">
+        <rect x="157.5" y="2.5" width="123" height="75" rx="2.5" fill="white"
+              stroke="#586EE0"/>
+        <path d="M160 5H278V75H160V5Z" fill="#F6F6F9"/>
+        <path d="M160 5H278V75H160V5Z" fill="white" fill-opacity="0.5"/>
+        <path d="M184 41C184 39.8954 184.895 39 186 39H187C188.105 39 189 39.8954 189 41V52H184V41Z"
+              fill="#586EE0">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 1; 1"
+                     keyTimes="0; 0.02; 1"
+                     fill="freeze"/>
+        </path>
+        <rect x="185" y="55" width="3" height="3" fill="#3CD04E">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 1; 1"
+                     keyTimes="0; 0.02; 1"
+                     fill="freeze"/>
+        </rect>
+        <path d="M195 33C195 31.8954 195.895 31 197 31H198C199.105 31 200 31.8954 200 33V52H195V33Z"
+              fill="#586EE0">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 1"
+                     fill="freeze"/>
+        </path>
+        <rect x="196" y="55" width="3" height="3" fill="#3CD04E">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 1"
+                     fill="freeze"/>
+        </rect>
+        <path d="M206 23C206 21.8954 206.895 21 208 21H209C210.105 21 211 21.8954 211 23V52H206V23Z"
+              fill="#586EE0">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 0.06; 1"
+                     fill="freeze"/>
+        </path>
+        <rect x="207" y="55" width="3" height="3" fill="#3CD04E">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 0.06; 1"
+                     fill="freeze"/>
+        </rect>
+        <path d="M217 41C217 39.8954 217.895 39 219 39H220C221.105 39 222 39.8954 222 41V52H217V41Z"
+              fill="#586EE0">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 0.06; 0.08; 1"
+                     fill="freeze"/>
+        </path>
+        <rect x="218" y="55" width="3" height="3" fill="#3CD04E">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 0.06; 0.08; 1"
+                     fill="freeze"/>
+        </rect>
+        <path d="M228 33C228 31.8954 228.895 31 230 31H231C232.105 31 233 31.8954 233 33V52H228V33Z"
+              fill="#586EE0">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 0; 0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 0.06; 0.08; 0.1; 1"
+                     fill="freeze"/>
+        </path>
+        <rect x="229" y="55" width="3" height="3" fill="#3CD04E">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 0; 0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 0.06; 0.08; 0.1; 1"
+                     fill="freeze"/>
+        </rect>
+        <path d="M239 41C239 39.8954 239.895 39 241 39H242C243.105 39 244 39.8954 244 41V52H239V41Z"
+              fill="#586EE0">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 0; 0; 0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 0.06; 0.08; 0.1; 0.12; 1"
+                     fill="freeze"/>
+        </path>
+        <rect x="240" y="55" width="3" height="3" fill="#3CD04E">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 0; 0; 0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 0.06; 0.08; 0.1; 0.12; 1"
+                     fill="freeze"/>
+        </rect>
+        <path d="M250 31C250 29.8954 250.895 29 252 29H253C254.105 29 255 29.8954 255 31V52H250V31Z"
+              fill="#586EE0">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 0; 0; 0; 0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 0.06; 0.08; 0.1; 0.12; 0.14; 1"
+                     fill="freeze"/>
+        </path>
+        <rect x="251" y="55" width="3" height="3" fill="#3CD04E">
+            <animate attributeName="opacity"
+                     from="0" to="1" dur="4s"
+                     repeatCount="indefinite"
+                     values="0; 0; 0; 0; 0; 0; 0; 1; 1"
+                     keyTimes="0; 0.02; 0.04; 0.06; 0.08; 0.1; 0.12; 0.14; 1"
+                     fill="freeze"/>
+        </rect>
+    </g>
+    <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M142.854 46.3544L147.854 41.3304C147.901 41.2835 147.938 41.2281 147.962 41.168C147.987 41.1078 148 41.0428 148 40.9765C148 40.8439 147.947 40.7169 147.853 40.6233L142.853 35.6473L142.147 36.3561L146.311 40.4999L136 40.4999V41.4999L146.275 41.4999L142.146 45.649L142.854 46.3544Z"
+          fill="#586EE0"/>
+
+    <defs>
+        <filter id="filter0_d" x="0" y="0" width="130" height="82"
+                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="1.5"/>
+            <feColorMatrix type="matrix"
+                           values="0 0 0 0 0.0964706 0 0 0 0 0.0964706 0 0 0 0 0.0976471 0 0 0 0.18 0"/>
+            <feBlend mode="multiply" in2="BackgroundImageFix"
+                     result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow"
+                     result="shape"/>
+        </filter>
+        <filter id="filter1_d" x="154" y="0" width="130" height="82"
+                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="1.5"/>
+            <feColorMatrix type="matrix"
+                           values="0 0 0 0 0.0964706 0 0 0 0 0.0964706 0 0 0 0 0.0976471 0 0 0 0.18 0"/>
+            <feBlend mode="multiply" in2="BackgroundImageFix"
+                     result="effect1_dropShadow"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow"
+                     result="shape"/>
+        </filter>
+    </defs>
+</svg>
