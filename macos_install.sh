@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Script Name: install.sh
+# Script Name: macos_install.sh
 #
 # Author: Kailous
 # organization: RainForest
@@ -28,7 +28,8 @@ target_dir="/Applications/Pitch.app/Contents/Resources/app-$arch.asar"
 
 # 判断客户端文件是否存在
 if [ ! -f "$target_dir" ]; then
-  echo "错误: 未找到客户端文件 '$target_dir' ，请下载完整的项目。"
+  echo "错误: 未找到客户端文件 '$target_dir' ，请正确安装客户端。"
+  echo "提示: 客户端安装路径为/Applications/Pitch.app"
   exit 1
 fi
 
