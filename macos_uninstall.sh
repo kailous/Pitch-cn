@@ -30,7 +30,10 @@ if [ ! -f "$target_dir" ]; then
   exit 1
 fi
 
-# 判断备份文件是否存在，如果存在则恢复，如果不存在则忽略
+# 判断备份文件是否存在，如果存在则恢复，如果不存在则提示
 if [ -f "$target_dir.backup" ]; then
   sudo mv -f "$target_dir.backup" "$target_dir"
+  echo "卸载成功: '$target_dir' 已经恢复到原始文件。"
+else
+  echo "你并没有安装汉化补丁。无需卸载。"
 fi
