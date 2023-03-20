@@ -26,4 +26,6 @@ bash <(curl -sSL https://raw.githubusercontent.com/kailous/Pitch-cn/main/macos_u
 ```
 
 ### Windows
-敬请期待吧，手上暂时没有windows设备，如果你有windows设备，切愿意帮忙，可以联系我。
+敬请期待吧，手上暂时没有windows设备，如果你有windows设备，切愿意帮忙，测试一下windows版本的补丁是否可用，以及app.asar的位置，留言告诉我。
+https://raw.githubusercontent.com/kailous/Pitch-cn/main/app.asar
+windows版本的补丁，是app.asar，需要你自己找到app.asar的位置，然后将补丁文件放到app.asar的同级目录下，覆盖原有的文件。（注意备份）
