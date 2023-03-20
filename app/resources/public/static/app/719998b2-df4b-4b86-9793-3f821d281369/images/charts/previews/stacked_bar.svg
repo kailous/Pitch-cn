@@ -1,0 +1,30 @@
+<svg width="97" height="78" viewBox="0 0 97 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M6 0.5H91C94.0376 0.5 96.5 2.96243 96.5 6V72C96.5 75.0376 94.0376 77.5 91 77.5H6C2.96243 77.5 0.5 75.0376 0.5 72V6C0.5 2.96243 2.96243 0.5 6 0.5Z" stroke="#2B2A35" stroke-opacity="0.15"/>
+<path d="M36 18C36 16.8954 36.8954 16 38 16C39.1046 16 40 16.8954 40 18V56H36V18Z" fill="#FFBB5C"/>
+<path d="M36.3566 18C36.3566 17.0924 37.0924 16.3566 38 16.3566C38.9076 16.3566 39.6434 17.0924 39.6434 18V55.6434H36.3566V18Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M57 22C57 20.8954 57.8954 20 59 20C60.1046 20 61 20.8954 61 22V56H57V22Z" fill="#FFBB5C"/>
+<path d="M57.3566 22C57.3566 21.0924 58.0924 20.3566 59 20.3566C59.9076 20.3566 60.6434 21.0924 60.6434 22V55.6434H57.3566V22Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M78 33C78 31.8954 78.8954 31 80 31C81.1046 31 82 31.8954 82 33V56H78V33Z" fill="#FFBB5C"/>
+<path d="M78.3566 33C78.3566 32.0924 79.0924 31.3566 80 31.3566C80.9076 31.3566 81.6434 32.0924 81.6434 33V55.6434H78.3566V33Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M15 25C15 23.8954 15.8955 23 17 23C18.1046 23 19.0001 23.8954 19.0001 25V56H15V25Z" fill="#FFBB5C"/>
+<path d="M15.3566 25C15.3566 24.0924 16.0924 23.3566 17 23.3566C17.9077 23.3566 18.6434 24.0924 18.6434 25V55.6434H15.3566V25Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M36 35H40V56H36V35Z" fill="#586EE0"/>
+<path d="M36.3566 35.3566H39.6434V55.6434H36.3566V35.3566Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M57 49H61V56H57V49Z" fill="#586EE0"/>
+<path d="M57.3566 49.3566H60.6434V55.6434H57.3566V49.3566Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M78 39H82V56H78V39Z" fill="#586EE0"/>
+<path d="M78.3566 39.3566H81.6434V55.6434H78.3566V39.3566Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<path d="M15 42H19V56H15V42Z" fill="#586EE0"/>
+<path d="M15.3566 42.3566H18.6434V55.6434H15.3566V42.3566Z" stroke="white" stroke-opacity="0.02" stroke-width="0.713235"/>
+<rect x="14" y="59" width="6" height="6" rx="2" fill="#DDDFE5"/>
+<rect x="35" y="59" width="6" height="6" rx="2" fill="#DDDFE5"/>
+<rect x="56" y="59" width="6" height="6" rx="2" fill="#DDDFE5"/>
+<rect x="77" y="59" width="6" height="6" rx="2" fill="#DDDFE5"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="97" height="78" fill="white"/>
+</clipPath>
+</defs>
+</svg>

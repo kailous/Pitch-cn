@@ -18,9 +18,11 @@ nb="719998b2-df4b-4b86-9793-3f821d281369"
 # 目标文件夹路径和文件名列表
 target_arm64="./app-arm64"
 target_x64="./app-x64"
+target="./app"
 target_folders=(
   "./app-arm64/resources/public/static/app/$nb/js/l10n"
   "./app-x64/resources/public/static/app/$nb/js/l10n"
+  "./app/resources/public/static/app/$nb/js/l10n"
 )
 # 备份文件路径和文件名
 backup_file="$target_file.$(date +%Y%m%d%H%M%S)"
@@ -48,4 +50,6 @@ asar pack ./$target_arm64 ./$target_arm64.asar
 echo "打包成功: '$target_arm64' 已经打包为$target_arm64.asar."
 asar pack ./$target_x64 ./$target_x64.asar
 echo "打包成功: '$target_x64' 已经打包为$target_x64.asar."
+asar pack ./$target ./$target.asar
+echo "打包成功: '$target' 已经打包为$target.asar."
 exit 0
