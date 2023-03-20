@@ -40,6 +40,11 @@ echo "正在下载'$arch'汉化补丁..."
 echo "因为补丁需要直接下载到app修改，所以需要输入管理员密码。"
 # 提示输入管理员密码
 sudo chmod -R 777 /Applications/Pitch.app
+# 备份原有文件
+# 判断备份文件是否存在，如果存在则忽略，如果不存在则备份
+if [ ! -f "$target_dir.backup" ]; then
+  sudo mv "$target_dir" "$target_dir.backup"
+fi
 sudo curl -# -fo "$target_dir" -L "$source_dir" || { echo "错误: 下载失败，请检查网络连接。"; exit 1; }
 echo "下载成功: '$source_dir' 已经下载到 '$target_dir'."
 exit 0
