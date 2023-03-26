@@ -5,7 +5,7 @@
 # Author: Kailous
 # organization: RainForest
 # Date: 2023-03-20
-# Version: 1.1
+# Version: 1.1.0
 #
 # Description: 同步根目录的汉化脚本到各个文件夹内。
 # Sync files: base.js
