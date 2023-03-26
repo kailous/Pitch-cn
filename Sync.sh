@@ -45,12 +45,11 @@ for target_file in "${target_folders[@]}"; do
   cp "$source_file" "$target_file"
   echo "同步成功: '$source_file' 已经同步到 '$target_file'."
 done
-# 打包app-arm64和app-x64、app，分别打包为asar文件到根目录,显示进度条。
-echo "正在打包app-arm64..."
-asar pack "$target_arm64" "$target_arm64.asar" --progress
-echo "正在打包app-x64..."
-asar pack "$target_x64" "$target_x64.asar" --progress
-echo "正在打包app..."
-asar pack "$target" "$target.asar" --progress
-
+# 打包app-arm64、app-x64和app，分别打包为asar文件到根目录。
+asar pack ./$target_arm64 ./$target_arm64.asar
+echo "打包成功: '$target_arm64' 已经打包为$target_arm64.asar."
+asar pack ./$target_x64 ./$target_x64.asar
+echo "打包成功: '$target_x64' 已经打包为$target_x64.asar."
+asar pack ./$target ./$target.asar
+echo "打包成功: '$target' 已经打包为$target.asar."
 exit 0
