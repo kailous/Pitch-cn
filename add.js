@@ -12,44 +12,62 @@
 // @run-at       document-start
 // ==/UserScript==
 
+// 定义需要替换的文本
 const allData = [
-            [`Link`, `链接`],
-        ]
-
-// MutationObserver 是一个用于监听 DOM 变化的 API
-        let MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
-
-// MutationObserverConfig 用于配置 MutationObserver
-        let MutationObserverConfig = {
-            attributes: true, // 观察属性变化
-            childList: true,  // 观察子节点变化
-            subtree: true,    // 观察子树变化
-            characterData: true, // 观察文本节点变化
-            attributeOldValue: true, // 观察属性变化前的值
-            characterDataOldValue: true, // 观察文本节点变化前的值
-            attributeFilter: ['data-label', 'placeholder'] // 观察指定属性变化
-        }
-
-// 创建一个 MutationObserver 实例，用于监听 class为option-panels-panel-wrap的div的 dom 变化
-        let observer = new MutationObserver(function (mutations) {
-                mutations.forEach(function (mutation) {
-                    if (mutation.type === 'childList') {
-                        // 当 mutation.type 为 childList 时，表示子节点发生了变化
-                        // mutation.addedNodes 为新增的节点
-                        // mutation.removedNodes 为被删除的节点
-                        mutation.addedNodes.forEach(function (node) {
-                            // 当新增的节点为 div 且 class 包含 option-panels-panel-wrap 时，表示新增了一个面板
-                            if (node.nodeName === 'DIV' && node.classList.contains('option-panels-panel-wrap')) {
-                                // 遍历 allData 数组
-                                allData.forEach(function (data) {
-                                    // 将所有的键值对替换
-                                    node.innerHTML = node.innerHTML.replace(new RegExp(data[0], 'g'), data[1])
-                                })
-                            }
-                        })
-                    }
-                })
+    [`Link`, `链接`],
+    [`Title`, `标题`],
+    [`Headline`, `大标题`],
+    [`Subheadline`, `副标题`],
+    [`Normal text`, `正文`],
+    [`Small text`, `小字体正文`]
+]
+// 定义 MutationObserver 监听器
+let MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+let MutationObserverConfig = {
+    childList: true,
+    subtree: true,
+    attributeFilter: ['data-label'],
+    characterData: true
+};
+// 监听器
+let observer = new MutationObserver(function (mutations) {
+    // 遍历所有节点
+    let treeWalker = document.createTreeWalker(
+        document.body,
+        NodeFilter.SHOW_ALL,
+        {
+            // 过滤器
+            acceptNode: function (node) {
+                // 过滤掉不需要的节点
+                if (node.parentNode && node.parentNode.classList && node.parentNode.classList.contains('canvas-wrapper')) {
+                    return NodeFilter.FILTER_SKIP;
+                } else {
+                    return NodeFilter.FILTER_ACCEPT;
+                }
             }
-        )
-// 开始监听 DOM 变化
-        observer.observe(document.body, MutationObserverConfig);
+        },
+        false
+    );
+    // 去重
+    let dataMap = new Map();
+    allData.forEach(([key, val]) => {
+        if (key && !dataMap.has(key)) {
+            dataMap.set(key, val);
+        }
+    });
+    // 替换
+    let currentNode = treeWalker.currentNode;
+    // 遍历所有节点
+    while (currentNode) {
+        // 文本节点
+        if (currentNode.nodeType === 3) {
+            // 替换文本
+            let key1 = currentNode.textContent;
+            if (dataMap.has(key1)) currentNode.textContent = dataMap.get(key1);
+        }
+        // 下一个节点
+        currentNode = treeWalker.nextNode();
+    }
+});
+// 开始监听
+observer.observe(document.body, MutationObserverConfig);
