@@ -21,7 +21,7 @@ else
 fi
 
 # 源文件路径和文件名
-source_dir="https://raw.githubusercontent.com/kailous/Pitch-cn/main/app-$arch.asar"
+source_dir="https://media.githubusercontent.com/media/kailous/Pitch-cn/main/app-$arch.asar"
 # 客户端文件夹路径和文件名列表
 target_dir="/Applications/Pitch.app/Contents/Resources/app-$arch.asar"
 
