@@ -1364,7 +1364,7 @@
         "dashboard--header--upload-images-button": function(d) { return "上传图片"; },
         "dashboard--header--upload-videos-button": function(d) { return "上传视频"; },
         "dashboard--header--workspace-menu-button": function(d) { return "设置"; },
-        "dashboard--header--starter-badge-text": function(d) { return "初学者版"; },
+        "dashboard--header--starter-badge-text": function(d) { return "入门版"; },
         "dashboard--header--subtitle--private-space": function(d) { return "在私人演示文稿上工作并与他人分享"; },
         "dashboard--header--subtitle--private-folder": function(d) { return "在私人演示文稿上工作，并与他人分享此文件夹或其中的内容"; },
         "dashboard--header--subtitle--shared-space": function(d) { return "跟踪工作区成员与您共享的私人演示文稿"; },
@@ -4018,6 +4018,64 @@
     }); })()
 
 // 补充中文翻译
+
+// 定义秒格式
+function miao(maxSeconds) {
+    const timeAgoData = [];
+    for (let i = 1; i <= maxSeconds; i++) {
+        timeAgoData.push([`更新于 ${i} seconds ago`, `更新于 ${i} 秒前`]);
+    }
+    return timeAgoData;
+}
+
+// 定义分钟格式
+function fenzhong(maxMinutes) {
+    const timeAgoData = [];
+    for (let i = 1; i <= maxMinutes; i++) {
+        timeAgoData.push([`更新于 ${i} minutes ago`, `更新于 ${i} 分钟前`]);
+    }
+    return timeAgoData;
+}
+// 定义小时格式
+function xiaoshi(maxHours) {
+    const timeAgoData = [];
+    for (let i = 1; i <= maxHours; i++) {
+        timeAgoData.push([`更新于 ${i} hours ago`, `更新于 ${i} 小时前`]);
+    }
+    return timeAgoData;
+}
+// 定义天数格式
+function tianshu(maxDays) {
+    const timeAgoData = [];
+    for (let i = 1; i <= maxDays; i++) {
+        timeAgoData.push([`更新于 ${i} days ago`, `更新于 ${i} 天前`]);
+    }
+    return timeAgoData;
+}
+// 定义周数格式
+function zhoushu(maxWeeks) {
+    const timeAgoData = [];
+    for (let i = 1; i <= maxWeeks; i++) {
+        timeAgoData.push([`更新于 ${i} weeks ago`, `更新于 ${i} 周前`]);
+    }
+    return timeAgoData;
+}
+// 定义月数格式
+function yueshu(maxMonths) {
+    const timeAgoData = [];
+    for (let i = 1; i <= maxMonths; i++) {
+        timeAgoData.push([`更新于 ${i} months ago`, `更新于 ${i} 月前`]);
+    }
+    return timeAgoData;
+}
+// 定义年数格式
+function nianshu(maxYears) {
+    const timeAgoData = [];
+    for (let i = 1; i <= maxYears; i++) {
+        timeAgoData.push([`更新于 ${i} years ago`, `更新于 ${i} 年前`]);
+    }
+    return timeAgoData;
+}
 // 定义需要替换的文本
 const allData = [
     [`Link`, `链接`],
@@ -4026,7 +4084,51 @@ const allData = [
     [`Subheadline`, `副标题`],
     [`Normal text`, `正文`],
     [`Small text`, `小字体正文`],
-    [`History`, `历史记录`]
+    [`History`, `历史记录`],
+    [`None`, `无`],
+    [`Inkwell`, `黑白`],
+    [`Amaro`, `暖色`],
+    [`Brannan`, `冷色`],
+    [`Maven`, `高亮高饱和`],
+    [`Helena`, `粉色调`],
+    [`none`, `无`],
+    [`soft`, `柔软`],
+    [`regular`, `常规`],
+    [`retro`, `复古`],
+    [`Recording`, `录制`],
+    [`Shape`, `形状`],
+    [`Sticker`, `贴纸`],
+    [`Image`, `图像`],
+    [`Text`, `文本`],
+    [`More text options`, `更多文本设置`],
+    [`Circle`, `圆形`],
+    [`Square`, `方形`],
+    [`Portrait`, `竖屏`],
+    [`Wide`, `横屏`],
+    [`Column`, `柱形图`],
+    [`Stacked column`, `堆积柱形图`],
+    [`Bar`, `条形图`],
+    [`Stacked bar`, `堆积条形图`],
+    [`Line`, `折线图`],
+    [`Pie`, `饼图`],
+    [`Area`, `面积图`],
+    [`Stacked area`, `堆积面积图`],
+    [`Chart`, `图表`],
+    [`Legend`, `图例`],
+    [`Value labels`, `数值标签`],
+    [`Category labels`, `分类标签`],
+    [`Category axis`, `分类轴`],
+    [`Scale labels`, `刻度标签`],
+    [`Scale axis`, `刻度轴`],
+    [`Grid`, `网格线`],
+    [`Use as background`, `作为背景`],
+    ...miao(60),
+    ...fenzhong(60),
+    ...xiaoshi(24),
+    ...tianshu(7),
+    ...zhoushu(4),
+    ...yueshu(12),
+    ...nianshu(10)
 ]
 // 定义 MutationObserver 监听器
 let MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
