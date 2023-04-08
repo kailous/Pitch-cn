@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pitch-cn
 // @namespace    https://rainforest-kailous.notion.site/
-// @version      1.2.0
+// @version      1.2.1
 // @description  Pitch 汉化补丁，兼容网页与客户端。汉化的完成度已经100%了，但是英文改中文后，有些界面的布局可能会有些问题，但是不影响使用，后续会修复。如果有发现问题，欢迎反馈给我，谢谢！
 // @author       Kailous
 // @match        https://app.pitch.com/*
@@ -13,34 +13,34 @@
 
 (function(){ var en = function(n, ord
 ) {
-    var s = String(n).split('.'), v0 = !s[1], t0 = Number(s[0]) == n,
-        n10 = t0 && s[0].slice(-1), n100 = t0 && s[0].slice(-2);
-    if (ord) return (n10 == 1 && n100 != 11) ? 'one'
-        : (n10 == 2 && n100 != 12) ? 'two'
-            : (n10 == 3 && n100 != 13) ? 'few'
-                : 'other';
-    return (n == 1 && v0) ? 'one' : 'other';
+  var s = String(n).split('.'), v0 = !s[1], t0 = Number(s[0]) == n,
+      n10 = t0 && s[0].slice(-1), n100 = t0 && s[0].slice(-2);
+  if (ord) return (n10 == 1 && n100 != 11) ? 'one'
+      : (n10 == 2 && n100 != 12) ? 'two'
+      : (n10 == 3 && n100 != 13) ? 'few'
+      : 'other';
+  return (n == 1 && v0) ? 'one' : 'other';
 };
-    var number = function (value, name, offset) {
-        if (!offset) return value;
-        if (isNaN(value)) throw new Error("Can't apply offset:" + offset + ' to argument `' + name + '` with non-numerical value ' + JSON.stringify(value) + '.');
-        return value - offset;
-    };
-    var plural = function (value, offset, lcfunc, data, isOrdinal) {
-        if ({}.hasOwnProperty.call(data, value)) return data[value];
-        if (offset) value -= offset;
-        var key = lcfunc(value, isOrdinal);
-        return key in data ? data[key] : data.other;
-    };
-    var select = function (value, data) {
-        return {}.hasOwnProperty.call(data, value) ? data[value] : data.other;
-    };
+var number = function (value, name, offset) {
+  if (!offset) return value;
+  if (isNaN(value)) throw new Error("Can't apply offset:" + offset + ' to argument `' + name + '` with non-numerical value ' + JSON.stringify(value) + '.');
+  return value - offset;
+};
+var plural = function (value, offset, lcfunc, data, isOrdinal) {
+  if ({}.hasOwnProperty.call(data, value)) return data[value];
+  if (offset) value -= offset;
+  var key = lcfunc(value, isOrdinal);
+  return key in data ? data[key] : data.other;
+};
+var select = function (value, data) {
+  return {}.hasOwnProperty.call(data, value) ? data[value] : data.other;
+};
 
-    (function (root, G) {
-        if (typeof define === "function" && define.amd) { define(G); }
-        else if (typeof exports === "object") { module.exports = G; }
-        else { root.pitch_l10n = G; }
-    })(this, {
+(function (root, G) {
+  if (typeof define === "function" && define.amd) { define(G); }
+  else if (typeof exports === "object") { module.exports = G; }
+  else { root.pitch_l10n = G; }
+})(this, {
         "account--avatar-setting-dialog-heading": function(d) { return "更改账户头像"; },
         "account--avatar-choose-new-button": function(d) { return "上传新照片"; },
         "account--avatar-current-image-alt-text": function(d) { return "当前头像图片"; },
@@ -1560,7 +1560,7 @@
         "dashboard--change-workspace-private-document-modal--presentation-stays-private": function(d) { return "当你移动#[title]时，它将进入你的#[target]。"; },
         "dashboard--change-workspace-private-document-modal--presentation-stays-private--target": function(d) { return "私人文件夹"; },
         "dashboard--change-workspace-private-document-modal--presentation-will-be-public": function(d) { return "这个工作区没有私人文件夹。当你移动#[title]时，它将是#[target]。"; },
-        "dashboard--change-workspace-private-document-modal--presentation-will-be-public--target": function(d) { return "对整个工作区可见"; },  "dashboard--dirents--untitled-presentation": function(d) { return "未命名演示文稿"; },
+        "dashboard--change-workspace-private-document-modal--presentation-will-be-public--target": function(d) { return "对整个工作区可见"; },  
         "dashboard--change-workspace-document-modal--move-to": function(d) { return "移动到:"; },
         "dashboard--duplicate-shared-document-modal--duplicate-to": function(d) { return "复制到:"; },
         "dashboard--move-private-or-shared-document--confirmation-text": function(d) { return "确认"; },
@@ -2432,8 +2432,8 @@
         "inspector--animations--preset--shrink": function(d) { return "缩小"; },
         "inspector--animations--order--headline": function(d) { return "顺序"; },
         "inspector--animations--order--preview": function(d) { return "预览"; },
-        "inspector--animations--order--entry--clip--label": function(d) { return "录制"; },"inspector--animations--empty-state": function(d) { return "选择要动画化的对象。"; },
-        "inspector--animations--empty-state": function(d) { return "select object(s) to animate."; },
+        "inspector--animations--order--entry--clip--label": function(d) { return "录制"; },
+        "inspector--animations--empty-state": function(d) { return "选择要动画化的对象。"; },
         "integration--contact-support-link": function(d) { return "联系支持团队"; },
         "integration--troubleshooting-tips-link": function(d) { return "故障排除提示"; },
         "integration--error--generic": function(d) { return "发生了错误，我们只知道这些。如果问题持续，请联系支持团队。"; },
@@ -3543,7 +3543,7 @@
         "templates--stickers--category--chubby-hands": function(d) { return "胖手指"; },
         "templates--stickers--category--badges": function(d) { return "徽章"; },
         "templates--stickers--category--look-at-this": function(d) { return "看这个"; },
-        "templates--stickers--category--make-your-point": function(d) { return "表达你的观点"; },"templates--stickers--category--craft-a-plan": function(d) { return "制定计划"; },
+        "templates--stickers--category--make-your-point": function(d) { return "表达你的观点"; },
         "templates--stickers--category--craft-a-plan": function(d) { return "制定计划"; },
         "templates--stickers--category--office-flashback": function(d) { return "办公室回忆录"; },
         "templates--stickers--category--thrive-together": function(d) { return "共同成长"; },
