@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pitch-cn
 // @namespace    https://rainforest-kailous.notion.site/
-// @version      1.2.1
+// @version      1.2.2
 // @description  Pitch 汉化补丁，兼容网页与客户端。汉化的完成度已经100%了，但是英文改中文后，有些界面的布局可能会有些问题，但是不影响使用，后续会修复。如果有发现问题，欢迎反馈给我，谢谢！
 // @author       Kailous
 // @match        https://app.pitch.com/*
