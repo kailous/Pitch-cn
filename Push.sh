@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Script Name: Up.sh
+# Script Name: Push.sh
 #
 # Author: Kailous
 # organization: RainForest
@@ -8,7 +8,7 @@
 # Version: 1.1.0
 #
 # Description: 上传大文件到GitHub
-# Sync files: base.js
+# Push files: base.js
 #
 
 git lfs track "*.asar"
